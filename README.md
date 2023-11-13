@@ -2,30 +2,31 @@
 A Traffic sign classification system created using python and TensorFlow, and trained on the GTSRB dataset.
 The objective of this program is to demonstrate the ability to classify road indicators, such as signage, in live footage.
 
-# TODO:
+## TODO:
 * Handle video (input and post-processing)
 * Extract bounding boxes (and relevant information)
 * Test and Statistics
 
-# Core Model Functionality
+## Core Model Functionality
 Classifies traffic signs into 43 classes using the GTSRB dataset. The model classifies traffic signs into 43 different classes.
 
-# Dataset
+## Dataset
 We will use the GTSRB benchmark dataset (https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data). which contains around 50,000+ images classified into 40+ individual classes. The dataset is partitioned like:
  * 35,000 training set
  * 4,500 images in the validation set
  * 12,600 images in the test set which
  * totals to ~51,000 images in the dataset
 
-# Installation and Usage
+## Installation and Usage
 
-Install python 3.7 or above and pip.
-From the project root directory, initialize a new python virtual environment, activate, and install dependencies using the following commands:
+* Install python 3.7 or above and pip.
+* From the project root directory, initialize a new python virtual environment, activate, and install dependencies using the following commands:
 ```
 py -m venv venv
 venv\Scripts\Activate.ps1 (.bat)
 pip install -r requirements.txt
 ```
+* Download the GTSRB dataset from the link above, under the Dataset header. Extract the dataset into the project root directory into a folder called 'dataset'
 
 
 
