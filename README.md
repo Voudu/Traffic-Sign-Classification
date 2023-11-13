@@ -18,6 +18,17 @@ We will use the GTSRB benchmark dataset (https://www.kaggle.com/datasets/meowmeo
  * totals to ~51,000 images in the dataset
 
 # Installation and Usage
+
+Install python 3.7 or above and pip.
+From the project root directory, initialize a new python virtual environment, activate, and install dependencies using the following commands:
+```
+py -m venv venv
+venv\Scripts\Activate.ps1 (.bat)
+pip install -r requirements.txt
+```
+
+
+
 We start off by first installing and then importing all the required dependencies such as the frameworks and libraries.
 
 The data has already been split for us so we just load the data onto our jupyter notebook and then open it.
